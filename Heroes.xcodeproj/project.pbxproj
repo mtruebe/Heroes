@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF09B0841C83FF0A007D4905 /* WallScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EF09B0831C83FF0A007D4905 /* WallScene.sks */; };
+		EF09B0861C83FF6D007D4905 /* RoomScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EF09B0851C83FF6D007D4905 /* RoomScene.sks */; };
+		EF09B08D1C840139007D4905 /* fear_bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF09B0881C840139007D4905 /* fear_bg.mp3 */; };
+		EF09B08E1C840139007D4905 /* fear_lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF09B0891C840139007D4905 /* fear_lose.mp3 */; };
+		EF09B08F1C840139007D4905 /* fear_moan.wav in Resources */ = {isa = PBXBuildFile; fileRef = EF09B08A1C840139007D4905 /* fear_moan.wav */; };
+		EF09B0901C840139007D4905 /* fear_wall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF09B08B1C840139007D4905 /* fear_wall.mp3 */; };
+		EF09B0911C840139007D4905 /* fear_win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF09B08C1C840139007D4905 /* fear_win.mp3 */; };
 		EFFA1EA51C83F0A400EB80A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFA1EA41C83F0A400EB80A8 /* AppDelegate.swift */; };
 		EFFA1EA71C83F0A400EB80A8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EFFA1EA61C83F0A400EB80A8 /* GameScene.sks */; };
 		EFFA1EA91C83F0A400EB80A8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFA1EA81C83F0A400EB80A8 /* GameScene.swift */; };
@@ -14,9 +21,19 @@
 		EFFA1EAE1C83F0A400EB80A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFFA1EAC1C83F0A400EB80A8 /* Main.storyboard */; };
 		EFFA1EB01C83F0A400EB80A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFA1EAF1C83F0A400EB80A8 /* Assets.xcassets */; };
 		EFFA1EB31C83F0A400EB80A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFFA1EB11C83F0A400EB80A8 /* LaunchScreen.storyboard */; };
+		EFFA1EBC1C83F3A400EB80A8 /* map-1.sks in Resources */ = {isa = PBXBuildFile; fileRef = EFFA1EBB1C83F3A400EB80A8 /* map-1.sks */; };
+		EFFA1EBE1C83F74800EB80A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFA1EBD1C83F74800EB80A8 /* Images.xcassets */; };
+		EFFA1EC01C83FB6800EB80A8 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFA1EBF1C83FB6800EB80A8 /* MenuScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF09B0831C83FF0A007D4905 /* WallScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WallScene.sks; sourceTree = "<group>"; };
+		EF09B0851C83FF6D007D4905 /* RoomScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RoomScene.sks; sourceTree = "<group>"; };
+		EF09B0881C840139007D4905 /* fear_bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_bg.mp3; sourceTree = "<group>"; };
+		EF09B0891C840139007D4905 /* fear_lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_lose.mp3; sourceTree = "<group>"; };
+		EF09B08A1C840139007D4905 /* fear_moan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fear_moan.wav; sourceTree = "<group>"; };
+		EF09B08B1C840139007D4905 /* fear_wall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_wall.mp3; sourceTree = "<group>"; };
+		EF09B08C1C840139007D4905 /* fear_win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_win.mp3; sourceTree = "<group>"; };
 		EFFA1EA11C83F0A400EB80A8 /* Heroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFFA1EA41C83F0A400EB80A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFFA1EA61C83F0A400EB80A8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -26,6 +43,9 @@
 		EFFA1EAF1C83F0A400EB80A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFFA1EB21C83F0A400EB80A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFFA1EB41C83F0A400EB80A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFFA1EBB1C83F3A400EB80A8 /* map-1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "map-1.sks"; sourceTree = "<group>"; };
+		EFFA1EBD1C83F74800EB80A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFFA1EBF1C83FB6800EB80A8 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +59,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF09B0871C840139007D4905 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EF09B0881C840139007D4905 /* fear_bg.mp3 */,
+				EF09B0891C840139007D4905 /* fear_lose.mp3 */,
+				EF09B08A1C840139007D4905 /* fear_moan.wav */,
+				EF09B08B1C840139007D4905 /* fear_wall.mp3 */,
+				EF09B08C1C840139007D4905 /* fear_win.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		EFFA1E981C83F0A400EB80A8 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +90,30 @@
 		EFFA1EA31C83F0A400EB80A8 /* Heroes */ = {
 			isa = PBXGroup;
 			children = (
+				EFFA1EBA1C83F34C00EB80A8 /* Sprites */,
 				EFFA1EA41C83F0A400EB80A8 /* AppDelegate.swift */,
 				EFFA1EA61C83F0A400EB80A8 /* GameScene.sks */,
+				EF09B0831C83FF0A007D4905 /* WallScene.sks */,
+				EF09B0851C83FF6D007D4905 /* RoomScene.sks */,
 				EFFA1EA81C83F0A400EB80A8 /* GameScene.swift */,
 				EFFA1EAA1C83F0A400EB80A8 /* GameViewController.swift */,
 				EFFA1EAC1C83F0A400EB80A8 /* Main.storyboard */,
+				EFFA1EBF1C83FB6800EB80A8 /* MenuScene.swift */,
 				EFFA1EAF1C83F0A400EB80A8 /* Assets.xcassets */,
+				EFFA1EBD1C83F74800EB80A8 /* Images.xcassets */,
 				EFFA1EB11C83F0A400EB80A8 /* LaunchScreen.storyboard */,
 				EFFA1EB41C83F0A400EB80A8 /* Info.plist */,
+				EF09B0871C840139007D4905 /* Sounds */,
 			);
 			path = Heroes;
+			sourceTree = "<group>";
+		};
+		EFFA1EBA1C83F34C00EB80A8 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				EFFA1EBB1C83F3A400EB80A8 /* map-1.sks */,
+			);
+			name = Sprites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +148,7 @@
 				TargetAttributes = {
 					EFFA1EA01C83F0A400EB80A8 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 88Z2SR7DCA;
 					};
 				};
 			};
@@ -128,10 +175,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF09B0911C840139007D4905 /* fear_win.mp3 in Resources */,
+				EFFA1EBC1C83F3A400EB80A8 /* map-1.sks in Resources */,
 				EFFA1EA71C83F0A400EB80A8 /* GameScene.sks in Resources */,
 				EFFA1EB31C83F0A400EB80A8 /* LaunchScreen.storyboard in Resources */,
+				EF09B08E1C840139007D4905 /* fear_lose.mp3 in Resources */,
+				EF09B08D1C840139007D4905 /* fear_bg.mp3 in Resources */,
+				EFFA1EBE1C83F74800EB80A8 /* Images.xcassets in Resources */,
+				EF09B0841C83FF0A007D4905 /* WallScene.sks in Resources */,
+				EF09B08F1C840139007D4905 /* fear_moan.wav in Resources */,
+				EF09B0901C840139007D4905 /* fear_wall.mp3 in Resources */,
 				EFFA1EB01C83F0A400EB80A8 /* Assets.xcassets in Resources */,
 				EFFA1EAE1C83F0A400EB80A8 /* Main.storyboard in Resources */,
+				EF09B0861C83FF6D007D4905 /* RoomScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFFA1EA91C83F0A400EB80A8 /* GameScene.swift in Sources */,
+				EFFA1EC01C83FB6800EB80A8 /* MenuScene.swift in Sources */,
 				EFFA1EAB1C83F0A400EB80A8 /* GameViewController.swift in Sources */,
 				EFFA1EA51C83F0A400EB80A8 /* AppDelegate.swift in Sources */,
 			);
@@ -257,6 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Heroes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TruebeHeroes.Heroes;
@@ -268,6 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Heroes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TruebeHeroes.Heroes;
@@ -294,6 +353,7 @@
 				EFFA1EB91C83F0A400EB80A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
